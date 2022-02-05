@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  min-width: 960px;
+  min-width: 640px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("img/background-image.jpg"); /* hero-bg.jpg  */
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .page-header {
-  margin: 0 0 160px;
+  margin: 0 0 80px;
   padding: 32px 0 32px;
 }
 

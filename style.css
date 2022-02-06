@@ -6,26 +6,29 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg"); /* background-image.jpg  */
+  background-image: url("img/background-image.jpg"); /* hero-bg.jpg  */
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .container {
-  max-width: 928px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 16px;
+  background-color: #f2a42f;
 }
 
 .page-header {
   margin: 0 0 0px;
   padding: 0 32 0px;
+  background-color: #a2a4d6;
 }
 
 .page-header .container,
 .page-footer .container {
-  max-width: 1408px;
+  max-width: 1400px;
   text-align: right;
+  background-color: #a2a4b6;
 }
 
 .page-header a {
@@ -34,6 +37,7 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+  background-color: #a2a0b6;
 }
 
 .header-email {
@@ -47,12 +51,14 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 1020px;
+  margin-bottom: 880px;
+  background-color: #a2c4b6;
 }
 
 .hero-image .container {
   max-width: 1408px;
   text-align: center;
+  background-color: #a254b6; /* fiolet */
 }
 
 .heading {
@@ -61,16 +67,19 @@ body {
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
+  background-color: #a2bbd6; /* Красивый Кот */
 }
 
 .hero-image p {
   margin: 0;
   font-size: 32px;
   line-height: 48px;
+  background-color: #f5f4b6; /* Junior верстальщик */
 }
 
 .intro {
   margin: 0 0 120px;
+  background-color: #f2a4e6; /* вся ширина под котом розовая */
 }
 
 .subheading {
@@ -80,6 +89,7 @@ body {
   line-height: 80px;
   font-weight: 400;
   text-align: center;
+  background-color: #f2f1ef;  /* Давайте познакомимся */
 }
 
 .user-image {
@@ -93,21 +103,25 @@ body {
   font-size: 28px;
   line-height: 40px;
   font-weight: 500;
+  background-color: #0ab8ef; /* Пара слов о себе */
 }
 
 .intro p {
   margin: 0 0 32px;
+  background-color: #aaebff; /* Текст с парой слов о себе */
 }
 
 .skills-list {
   margin: 0;
   padding: 0;
+  background-color: #1122f4;
 }
 
 .skills-list dt {
   padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
+  background-color: #0a9af9;
 }
 
 .skill-html {
@@ -131,12 +145,13 @@ body {
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: #00ab56;
   border-radius: 6px;
 }
 
 .portfolio {
   margin: 0 0 120px;
+  background-color: #00ab00; /* вся ширина под Мои работы */
 }
 
 .projects {

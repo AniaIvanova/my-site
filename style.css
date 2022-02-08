@@ -15,29 +15,29 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 16px;
-  background-color: #f2a42f;
+  /* background-color: #f2ff2f; /* fon osnown centraln bloka желты */
 }
 
 .page-header {
   margin: 0 0 0px;
   padding: 0 32 0px;
-  background-color: #a2a4d6;
+  /*background-color: #a2fff6; /* fon szirokoj szapki */
 }
 
 .page-header .container,
 .page-footer .container {
   max-width: 1400px;
   text-align: right;
-  background-color: #a2a4b6;
+  /* background-color: #ffa4b6; /* fon pod kontaktami w szapke */
 }
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #ffffff;         /* cvet kontaktow w szapke */
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
-  background-color: #a2a0b6;
+  background-color: #555555;  /* fon kontaktow w szapke */
 }
 
 .header-email {

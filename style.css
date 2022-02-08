@@ -33,11 +33,11 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #ffffff;         /* cvet kontaktow w szapke */
+  /* color: #ffffff;         /* cvet kontaktow w szapke */
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
-  background-color: #555555;  /* fon kontaktow w szapke */
+  background-color: #444444;  /* fon kontaktow w szapke */
 }
 
 .header-email {

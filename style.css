@@ -15,6 +15,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 16px;
+  background-color: #f2f1ef;
   /* background-color: #f2ff2f; /* fon osnown centraln bloka желты */
 }
 
@@ -24,11 +25,18 @@ body {
   /*background-color: #a2fff6; /* fon szirokoj szapki */
 }
 
-.page-header .container,
+.page-header .container {
+  max-width: 1400px;
+  text-align: right;
+  background-color: transparent;
+  /* background-color: #ffa4b6; /* fon pod kontaktami w szapke */
+} 
+
 .page-footer .container {
   max-width: 1400px;
   text-align: right;
-  /* background-color: #ffa4b6; /* fon pod kontaktami w szapke */
+  background-color: #00417d;
+  /* background-color: #ffa4b6; /* fon pod kontaktami w podvale */
 }
 
 .page-header a {
@@ -52,13 +60,14 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 880px; /* расстояние до блока Давайте познакомимся */
+  margin-bottom: 920px; /* расстояние до блока Давайте познакомимся */
   /* background-color: #a2c4b6; /* вся ширина под container Красивый Кот + Junior верстальщик */
 }
 
 .hero-image .container {
   max-width: 1408px;
   text-align: center;
+  background-color: transparent;
   /* background-color: #a254b6; /* container Красивый Кот + Junior верстальщик */
 }
 
@@ -84,7 +93,7 @@ body {
 
 .intro {
   margin: 0 0 120px;
-  background-color: #f2a4e6; /* вся ширина под котом розовая */
+  /* background-color: #f2a4e6; /* вся ширина под котом розовая */
 }
 
 .subheading {
@@ -127,7 +136,7 @@ body {
   padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
-  background-color: #0a9af9;
+  background-color: #0a9af9; /* pod nazvaniami navykov */ 
 }
 
 .skill-html {
@@ -152,12 +161,12 @@ body {
   margin: 1px;
   height: 12px;
   background-color: #00ab56;
-  border-radius: 6px;
+  border-radius: 6px; /* polosy progressa */
 }
 
 .portfolio {
   margin: 0 0 120px;
-  background-color: #00ab00; /* вся ширина под Мои работы */
+  /* background-color: #00ab00; /* вся ширина под Мои работы */
 }
 
 .projects {

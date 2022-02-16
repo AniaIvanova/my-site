@@ -1,115 +1,86 @@
 body {
   margin: 0;
-  min-width: 640px;
+  min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/background-image.jpg"); /* hero-bg.jpg  */
+  color: #f2f2f2;
+  background-color: #080208;
+  background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
-  background-color: #f2f1ef;
-  /* background-color: #f2ff2f; /* fon osnown centraln bloka желты */
 }
 
 .page-header {
-  margin: 0 0 0px;
-  padding: 0 32 0px;
-  /*background-color: #a2fff6; /* fon szirokoj szapki */
+  margin: 0 0 180px;
+  padding: 32px 0 32px;
 }
 
-.page-header .container {
-  max-width: 1400px;
-  text-align: right;
-  background-color: transparent;
-  /* background-color: #ffa4b6; /* fon pod kontaktami w szapke */
-} 
-
+.page-header .container,
 .page-footer .container {
-  max-width: 1400px;
+  max-width: 1408px;
   text-align: right;
-  background-color: #00417d;
-  /* background-color: #ffa4b6; /* fon pod kontaktami w podvale */
 }
 
 .page-header a {
   margin-left: 56px;
-  color: #ffffff;         /* cvet kontaktow w szapke */
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
-  background-position: 2px; /* otstup konverta */
-  background-color: rgba(35, 35, 0, 0.6);  /* fon kontaktow w szapke */
-  border-radius: 4px;
+  background-position: left;
 }
 
 .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg"); /* "img/icon-email-header.svg" */
+  background-image: url("img/icon-email.svg");
 }
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg"); /* "img/icon-phone-header.svg" */
+  background-image: url("img/icon-phone.svg");
 }
 
 .hero-image {
-  margin-bottom: 920px; /* расстояние до блока Давайте познакомимся */
-  /* background-color: #a2c4b6; /* вся ширина под container Красивый Кот + Junior верстальщик */
+  margin-bottom: 480px;
 }
 
 .hero-image .container {
   max-width: 1408px;
   text-align: center;
-  background-color: transparent;
-  /* background-color: #a254b6; /* container Красивый Кот + Junior верстальщик */
 }
 
 .heading {
-  margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 72px;
-  line-height: 120%;  /* высота строки относительно шрифта */
-  font-weight: 400;
-  /* background-color: #a2bbd6; /* Красивый Кот */
-  text-align: left;
-  padding-left: 11%;
+  margin: 0 0 24px;
+  font-size: 80px;
+  line-height: 96px;
 }
 
 .hero-image p {
   margin: 0;
   font-size: 32px;
-  line-height: 40px;
-  /* background-color: #f5f4b6; /* Junior верстальщик */
-  text-align: left;
-  padding-left: 16%;
+  line-height: 48px;
 }
 
 .intro {
   margin: 0 0 120px;
-  /* background-color: #f2a4e6; /* вся ширина под котом розовая */
 }
 
 .subheading {
   margin: 0 0 56px;
-  font-family: "Lora", "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 64px;
+  font-size: 56px;
   line-height: 80px;
-  font-weight: 400; /* то же самое что и normal, bold - 700 */
-  text-align: right;
-  background-color: #f2f1ef;  /* Давайте познакомимся */
+  text-align: center;
 }
 
 .user-image {
   margin: 0 0 32px;
-  text-align: right;  /*cruella*/
-  border-radius: 15%;
+  text-align: center;
 }
 
 .intro h3,
@@ -118,25 +89,21 @@ body {
   font-size: 28px;
   line-height: 40px;
   font-weight: 500;
-  background-color: #0ab8ef; /* Пара слов о себе */
 }
 
 .intro p {
   margin: 0 0 32px;
-  background-color: #aaebff; /* Текст с парой слов о себе */
 }
 
 .skills-list {
   margin: 0;
   padding: 0;
-  background-color: #1122f4;
 }
 
 .skills-list dt {
   padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
-  background-color: #0a9af9; /* pod nazvaniami navykov */ 
 }
 
 .skill-html {
@@ -152,21 +119,20 @@ body {
   padding: 0;
   height: 14px;
   font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
+  background-color: #080208;
+  border: 1px solid #712073;
   border-radius: 8px;
 }
 
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #00ab56;
-  border-radius: 6px; /* polosy progressa */
+  background-color: #fea18d;
+  border-radius: 6px;
 }
 
 .portfolio {
   margin: 0 0 120px;
-  /* background-color: #00ab00; /* вся ширина под Мои работы */
 }
 
 .projects {
@@ -195,19 +161,18 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
+  background-color: #712073;
   color: #ffffff;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
-  color: #ffffff;
+  background-color: #260c26;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -215,10 +180,10 @@ body {
 
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
+  background-image: url("img/icon-email.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
+  background-image: url("img/icon-phone.svg");
 }

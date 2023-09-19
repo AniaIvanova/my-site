@@ -119,7 +119,7 @@ body {
   padding: 0;
   height: 14px;
   font-size: 0;
-  background-color: #080208;
+  background-color: #020408;
   border: 1px solid #712073;
   border-radius: 8px;
 }
@@ -127,7 +127,7 @@ body {
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #fea18d;
+  background-color: hsl(313, 91%, 78%);
   border-radius: 6px;
 }
 
